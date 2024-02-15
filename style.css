@@ -1,0 +1,103 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.continer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.submit{
+    background-color: #0000ff;
+    color: #fff;
+    padding: 5px;
+    width: 5%;
+    border: none;
+    border-radius: 4px;
+}
+
+.delete{
+    border: 1px solid red;
+    background-color: red;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 35px;
+    margin-right: 200px;
+}
+.update{
+    border: 1px solid rgb(255, 204, 0);
+    background-color:rgb(255, 204, 0);
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 35px;
+
+}
+.contact{display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+/* .contact ul {
+    padding: 0;
+    margin: 0;
+  } */
+  .contact ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .contact li {
+    list-style: none;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(73, 71, 71);
+  }
+  
+.contact li .name {
+  flex-grow: 1;
+  padding: 0 2rem;
+}
+.contact li .phone {
+  flex-grow: 1;
+  padding: 0 2rem;
+}
+.contact li .email {
+  flex-grow: 1;
+  padding: 0 2rem;
+}
+  h3{
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 24px;
+  }
+  h1{
+    margin-left: 45%
+  }
+  .name{
+    width: 15%;
+  }
+  .phone{
+    width: 15%;
+  }  
+  .email{
+    width: 15%;
+  }  
